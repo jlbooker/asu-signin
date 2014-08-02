@@ -20,14 +20,6 @@
         max-width: 300px;
         padding: 19px 29px 29px;
         margin: 0 auto 20px;
-        background-color: #fff;
-        border: 1px solid #e5e5e5;
-        -webkit-border-radius: 5px;
-           -moz-border-radius: 5px;
-                border-radius: 5px;
-        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
-           -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
-                box-shadow: 0 1px 2px rgba(0,0,0,.05);
       }
         
       .logo {
@@ -48,12 +40,12 @@
   <body>
 
     <div class="container">
-      <div class="panel panel-default center-block">
+      <div class="panel panel-default">
         <div class="panel-body">
           <img class="logo" src="img/ASUbird_logo_blackandgoldbird_RGB_300x84.png">
           <h2 class="form-signin-heading">Please sign in</h2>
           <div class="alert alert-danger" role="alert">The user name or password you entered is incorrect. <a class="alert-link" href="https://password.appstate.edu/pswdchgform/">Can't access your account?</a></div>
-          <form role="form">
+          <form class="form-signin" role="form">
             <div class="form-group">
               <label for="username">ASU User Name</label>
               <input type="email" class="form-control" id="username" placeholder="ASU User Name" autofocus>
